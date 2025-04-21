@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("<h3>1. Write a program to sort a JavaScript Array.</h3>");
+        let numbers = [5, 3, 8, 1, 4];
+        document.write("Original array: " + numbers + "<br>");
+        numbers.sort(function(a, b) {
+            return a - b;
+        });
+        document.write("Sorted array: " + numbers + "<br>");
+
+        document.write("<h3>2. Write a program to concatenate two array elements and store them in new array.</h3>");
+        let array1 = [1, 2, 3];
+        let array2 = [4, 5, 6];
+        let concatenatedArray = array1.concat(array2);
+        document.write("Array 1: " + array1 + "<br>");
+        document.write("Array 2: " + array2 + "<br>");
+        document.write("Concatenated array: " + concatenatedArray + "<br>");
+
+        document.write("<h3>3. Write a program to remove first element from JavaScript Array.</h3>");
+        let fruits = ["Apple", "Banana", "Cherry"];
+        document.write("Original array: [" + fruits + "]<br>");   
+        fruits.shift();
+        document.write("Array after removing first element: [" + fruits + "]<br>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
